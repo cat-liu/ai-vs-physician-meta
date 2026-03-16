@@ -2,6 +2,7 @@
 data/raw/
 data/extracted/
 data/cache/
+data_v2_offline/
 
 # Environment
 .env
