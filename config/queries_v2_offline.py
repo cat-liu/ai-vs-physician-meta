@@ -16,6 +16,9 @@ QUERY_VERSION = "v2_offline_20260331"
 DATE_START = "2022/01/01"
 DATE_END = "2026/03/31"
 
+# I conducted an experiment on false-positive rates for terms on PubMed and
+# the rate was decently high, would recommend adding as a step, can share my notebook
+
 AI_TERMS = [
     "artificial intelligence",
     "machine learning",
