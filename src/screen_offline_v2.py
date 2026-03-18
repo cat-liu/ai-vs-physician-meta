@@ -63,6 +63,10 @@ GENERIC_AI_PATTERNS = [
     "digital signal processing",
 ]
 
+# Agree with overall accuracy patterns, include top-K studies? DDx study is Top-10
+# Also percentage (0-100) studies.
+# Are accuracy patterns required? What would happen if didn't constrain pull by fields?
+
 ACCURACY_PATTERNS = [
     r"\baccuracy\b",
     r"\bauc\b",
@@ -73,6 +77,10 @@ ACCURACY_PATTERNS = [
     r"\bprecision\b",
     r"\brecall\b",
     r"\b\d{1,3}(?:\.\d+)?%\b",
+
+    # proposed scalable regex addition for Top-K studies
+    r"\btop[- ]?\d+(?:\s+accuracy)?\b",
+    r"\btop[- ]?k(?:\s+accuracy)?\b",
 ]
 
 STRONG_COMPARISON_PATTERNS = [
