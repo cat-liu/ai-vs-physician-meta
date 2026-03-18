@@ -16,7 +16,7 @@ from pathlib import Path
 
 import pandas as pd
 
-from config.queries_v2_offline import AI_TERMS, CLINICAL_TASK_TERMS, EXCLUSION_CRITERIA, PHYSICIAN_TERMS
+from config.queries_v2_offline import AI_TERMS, CLINICAL_TASK_TERMS, EXCLUSION_CRITERIA, PHYSICIAN_TERMS # Took a look at these files, comments will be in there
 
 # Overall agree with the exclusions here and aligns with "what's next" suggestion from Ethan
 # The context is "real-world", this can include real-world data, real-world integrations,
