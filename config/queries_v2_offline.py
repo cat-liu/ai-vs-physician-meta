@@ -16,6 +16,12 @@ QUERY_VERSION = "v2_offline_20260331"
 DATE_START = "2022/01/01"
 DATE_END = "2026/03/31"
 
+
+# I think this covers a good range from CNN to LLM, one thing I would add
+# is time series or multimodal, this is currently more a field for consumer 
+# health, however there is research like TRICORDER (stethoscope) leveraging 
+# AI to detect heart disease.
+
 AI_TERMS = [
     "artificial intelligence",
     "machine learning",
@@ -36,6 +42,13 @@ AI_TERMS = [
     "DeepSeek",
     "PaLM",
     "Bard",
+
+    # proposed additions for expanded modality coverage
+    "speech recognition",
+    "multimodal model",
+    "time series model",
+    "biosignal",
+    "wearable",
 ]
 
 CLINICAL_TASK_TERMS = [

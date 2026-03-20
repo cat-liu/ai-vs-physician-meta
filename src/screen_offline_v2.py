@@ -37,11 +37,6 @@ EXCLUDE_PATTERNS = [
     "multiple-choice",
 ]
 
-# I think this covers a good range from CNN to LLM, one thing I would add
-# is signal processing, things like sensor data, this is currently more a 
-# field for consumer health products, however there is research like TRICORDER 
-# leveraging signal processing to detect heart disease.
-
 GENERIC_AI_PATTERNS = [
     "artificial intelligence",
     "machine learning",
@@ -54,10 +49,6 @@ GENERIC_AI_PATTERNS = [
     "computer vision",
     "large language model",
     "generative ai",
-
-     # proposed additions for signal processing studies
-    "signal processing",
-    "digital signal processing",
 ]
 
 # Agree with overall accuracy patterns, include top-K studies and percentage (0-100) studies.
